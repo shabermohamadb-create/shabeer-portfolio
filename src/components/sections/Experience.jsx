@@ -2,15 +2,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const experiences = [
-  {
-    period: '2025 – PRESENT',
-    role: 'Freelance Game Developer',
-    org: 'Independent Studio',
-    color: '#00f5ff',
-    icon: '◈',
-    desc: 'Building client game prototypes and interactive experiences using Unreal Engine 5 and Unity. Specialize in AI enemy systems, multiplayer framework setup, and level design.',
-    tags: ['UE5', 'C++', 'Multiplayer', 'AI Systems'],
-  },
+
   {
     period: '2024 – 2025',
     role: 'AI/ML Projects',
@@ -20,33 +12,7 @@ const experiences = [
     desc: 'Developed real-time emotion detection system, IoT home automation platform, and Discord automation bots. Worked with TensorFlow, OpenCV, and MQTT.',
     tags: ['Python', 'TensorFlow', 'OpenCV', 'IoT'],
   },
-  {
-    period: '2023 – 2024',
-    role: 'Game Jam Developer',
-    org: 'itch.io / Global Game Jam',
-    color: '#00ff88',
-    icon: '◇',
-    desc: 'Participated in 72-hour game jams. Built 4 complete game prototypes under tight deadlines — Horror, Puzzle, Platformer, and Arcade genres.',
-    tags: ['Unity', 'Godot', 'Rapid Prototyping', 'Game Design'],
-  },
-  {
-    period: '2022 – 2023',
-    role: 'Unreal Engine Experiments',
-    org: 'Personal R&D Lab',
-    color: '#ff006e',
-    icon: '⬢',
-    desc: 'Deep research into Unreal Engine internals. Built custom physics systems, Nanite landscape experiments, and Lumen lighting demos.',
-    tags: ['Blueprints', 'Nanite', 'Lumen', 'Chaos Physics'],
-  },
-  {
-    period: '2022',
-    role: 'Web Development Projects',
-    org: 'Self-Taught',
-    color: '#00f5ff',
-    icon: '◈',
-    desc: 'Built responsive web applications — portfolio sites, command-line tools web interface, and dynamic dashboards. Strong foundation in front-end technologies.',
-    tags: ['React', 'Node.js', 'HTML/CSS', 'JavaScript'],
-  },
+  
 ]
 
 export default function Experience() {
