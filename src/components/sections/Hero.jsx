@@ -91,7 +91,7 @@ const letterVariants = {
 }
 
 export default function Hero() {
-  const name = 'SHABER MOHAMAD'
+  const name = 'SHABER'
 
   return (
     <section
