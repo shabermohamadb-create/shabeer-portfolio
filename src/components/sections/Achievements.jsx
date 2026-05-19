@@ -10,22 +10,7 @@ const achievements = [
     color: '#00f5ff',
     badge: 'TOP 5',
   },
-  {
-    icon: '◈',
-    title: 'GAME JAM WINNER',
-    subtitle: 'Local Game Dev Competition',
-    desc: 'Best Horror Game award at 72-hour game jam with atmospheric escape room experience.',
-    color: '#bf00ff',
-    badge: 'WINNER',
-  },
-  {
-    icon: '◇',
-    title: 'UE5 CERTIFICATION',
-    subtitle: 'Unreal Online Learning',
-    desc: 'Completed advanced Unreal Engine 5 development curriculum covering Blueprint & C++.',
-    color: '#00ff88',
-    badge: 'CERTIFIED',
-  },
+
   {
     icon: '⬢',
     title: 'OPEN SOURCE',
@@ -42,14 +27,7 @@ const achievements = [
     color: '#00f5ff',
     badge: '89% ACC',
   },
-  {
-    icon: '⬡',
-    title: 'PUBLISHED TITLES',
-    subtitle: 'itch.io Platform',
-    desc: 'Published 3 playable game demos on itch.io with combined 500+ downloads.',
-    color: '#bf00ff',
-    badge: '500+ DL',
-  },
+
 ]
 
 export default function Achievements() {
