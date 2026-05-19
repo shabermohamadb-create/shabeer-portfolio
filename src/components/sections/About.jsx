@@ -93,7 +93,7 @@ export default function About() {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              {['Unreal Engine 5', 'C++', 'Blueprints', 'Unity', 'AI Systems'].map(tag => (
+              {['Unreal Engine 5', 'Python', 'IoT', 'Unity', 'AI Systems'].map(tag => (
                 <span key={tag} className="px-3 py-1 font-mono text-xs border border-[#00f5ff]/30 text-[#00f5ff]/80 glass">
                   {tag}
                 </span>
