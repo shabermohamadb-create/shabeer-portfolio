@@ -4,9 +4,7 @@ import { motion, useInView } from 'framer-motion'
 const skills = [
 
   { name: 'Unity', level: 78, color: '#00ff88', icon: '⬢' },
-  { name: 'Multiplayer Networking', level: 75, color: '#bf00ff', icon: '◇' },
   { name: 'Blender 3D', level: 70, color: '#00f5ff', icon: '⬡' },
-  { name: 'Game Physics', level: 83, color: '#00ff88', icon: '◈' },
   { name: 'IoT', level: 88, color: '#ff006e', icon: '◇' },
   { name: 'Python / AI/ML', level: 76, color: '#00f5ff', icon: '◈' },
   { name: 'Web Development', level: 68, color: '#00ff88', icon: '◇' },
