@@ -24,11 +24,11 @@ const testimonials = [
     text: 'Collaborated with Shaber on a game jam and it was an incredible experience. His rapid prototyping skills and creative problem solving under pressure are unmatched.',
   },
   {
-    name: 'Rajesh',
+    name: 'Akil Star',
     role: 'Professor, CS Dept.',
     avatar: 'R',
     color: '#ff006e',
-    text: 'Shaber is one of the most technically gifted students I have mentored. His AI emotion detection project was research-grade work. A true innovator in game technology.',
+    text: 'Shaber is one of the most technically Wasted student I have mentored. His AI emotion detection project was research-grade not work. A true innovator in game technology.',
   },
   {
     name: 'Masav',
