@@ -34,10 +34,10 @@ function AnimatedCounter({ target, label, suffix = '+' }) {
 }
 
 const timelineItems = [
-  { year: '2022', title: 'First Game', desc: 'Built first 2D game using Unity — fell in love with game physics and interactive systems.' },
-  { year: '2023', title: 'Unreal Engine', desc: 'Mastered Unreal Engine 5 Blueprints and C++. Built open-world prototypes and AI systems.' },
-  { year: '2024', title: 'Multiplayer & AI', desc: 'Deep-dived into multiplayer networking, AI enemy systems, and procedural level generation.' },
-  { year: '2025', title: 'Full Stack Dev', desc: 'Expanded into web + IoT projects while continuing AAA game development experiments.' },
+  { year: '2023', title: 'SSLC', desc: 'I Completed My SSLC At Government Higher Secondary School,Salem.' },
+  { year: '2025', title: 'HSC', desc: 'I Completed My HSC At Government Higher Secondary School,Salem.' },
+  { year: '2025-2029', title: 'B.Tech - "AI&DS"', desc: 'Iam Currently Pursuing Airtificial Intellegence And Data Science At Stella Marys College Of Engineerng , Kanyakumari' },
+  { year: '2026', title: 'Basher', desc: 'I Joined In The Byte-Bash-Blitz Tech Community.' },
 ]
 
 export default function About() {
@@ -146,10 +146,10 @@ export default function About() {
           transition={{ delay: 0.8 }}
           className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20"
         >
-          <AnimatedCounter target={10} label="Games Built" />
-          <AnimatedCounter target={15} label="Technologies" />
-          <AnimatedCounter target={20} label="Projects Done" />
-          <AnimatedCounter target={3} label="Years Exp" />
+          <AnimatedCounter target={3} label="Games Built" />
+          <AnimatedCounter target={5} label="Technologies" />
+          <AnimatedCounter target={4} label="Projects Done" />
+          <AnimatedCounter target={0} label="Years Exp" />
         </motion.div>
       </motion.div>
     </section>
