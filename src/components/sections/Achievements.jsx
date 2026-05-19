@@ -5,20 +5,12 @@ const achievements = [
   {
     icon: '⬡',
     title: 'HACKATHON FINALIST',
-    subtitle: 'College Tech Fest 2024',
-    desc: 'Top 5 finalist with AI-powered Smart Home IoT system among 200+ teams.',
+    subtitle: 'College Tech Fest 2025',
+    desc: 'Top 5 finalist with AI-powered Smart Home IoT system among 20+ teams.',
     color: '#00f5ff',
     badge: 'TOP 5',
   },
 
-  {
-    icon: '⬢',
-    title: 'OPEN SOURCE',
-    subtitle: 'GitHub Contributions',
-    desc: '15+ open source contributions across game dev tools, Unity plugins, and AI utilities.',
-    color: '#ff006e',
-    badge: '15+ CONTRIBS',
-  },
   {
     icon: '◈',
     title: 'AI/ML PROJECT',
