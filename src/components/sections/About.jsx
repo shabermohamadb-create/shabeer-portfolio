@@ -72,8 +72,8 @@ export default function About() {
             <div className="relative mb-8 w-48 h-48 mx-auto md:mx-0">
               <div className="absolute inset-0 rounded-full border-2 border-[#00f5ff]/40 animate-spin-slow" />
               <div className="absolute inset-2 rounded-full border border-[#bf00ff]/30 animate-spin-slow" style={{ animationDirection: 'reverse' }} />
-              <div className="absolute inset-4 rounded-full glass flex items-center justify-center">
-                <span className="font-orbitron text-4xl font-black neon-text-cyan">SM</span>
+              <div className="absolute inset-4 rounded-full glass flex items-center justify-center overflow-hidden">
+                <img src="/shabeer-photo.jpg" alt="Shaber Mohamad" className="w-full h-full object-cover rounded-full" />
               </div>
               <div className="absolute -bottom-2 -right-2 px-3 py-1 glass border border-[#00ff88]/30">
                 <span className="font-mono text-xs text-[#00ff88]">● AVAILABLE</span>
@@ -82,10 +82,10 @@ export default function About() {
 
             <div className="space-y-4 font-rajdhani text-lg text-[#e0f7ff]/70 leading-relaxed">
               <p>
-                I'm <span className="text-[#00f5ff] font-semibold">Shaber Mohamad</span> — a passionate Game Developer specializing in creating immersive gaming experiences that push the boundaries of interactive entertainment.
+                I'm <span className="text-[#00f5ff] font-semibold">Shaber Mohamad</span> — a passionate Game Developer specializing in creating immersive gaming experiences that push the boundar[...]
               </p>
               <p>
-                My expertise spans <span className="text-[#bf00ff]">Unreal Engine 5</span>, gameplay systems design, AI-driven enemy behavior, and multiplayer networking. I approach every project like crafting a world where players lose themselves.
+                My expertise spans <span className="text-[#bf00ff]">Unreal Engine 5</span>, gameplay systems design, AI-driven enemy behavior, and multiplayer networking. I approach every project [...]
               </p>
               <p>
                 Beyond games, I build intelligent systems — from IoT smart home solutions to ML-powered emotion detection — always with an engineering-first mindset.
