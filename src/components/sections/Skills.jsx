@@ -2,16 +2,12 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const skills = [
-  { name: 'Unreal Engine 5', level: 92, color: '#00f5ff', icon: '⬡' },
-  { name: 'C++ Programming', level: 85, color: '#bf00ff', icon: '◈' },
-  { name: 'Blueprints', level: 95, color: '#00f5ff', icon: '◇' },
+
   { name: 'Unity', level: 78, color: '#00ff88', icon: '⬢' },
-  { name: 'AI & Behavior Trees', level: 80, color: '#ff006e', icon: '◈' },
   { name: 'Multiplayer Networking', level: 75, color: '#bf00ff', icon: '◇' },
   { name: 'Blender 3D', level: 70, color: '#00f5ff', icon: '⬡' },
   { name: 'Game Physics', level: 83, color: '#00ff88', icon: '◈' },
-  { name: 'Level Design', level: 88, color: '#ff006e', icon: '◇' },
-  { name: 'UI/UX for Games', level: 72, color: '#bf00ff', icon: '⬢' },
+  { name: 'IoT', level: 88, color: '#ff006e', icon: '◇' },
   { name: 'Python / AI/ML', level: 76, color: '#00f5ff', icon: '◈' },
   { name: 'Web Development', level: 68, color: '#00ff88', icon: '◇' },
 ]
@@ -106,7 +102,7 @@ export default function Skills() {
         >
           <p className="font-mono text-xs text-[#00f5ff]/40 tracking-widest mb-4">// ALSO FAMILIAR WITH</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['Git', 'Docker', 'Linux', 'Node.js', 'Python', 'OpenCV', 'TensorFlow', 'MQTT', 'Arduino'].map(tech => (
+            {['Git', 'Linux', 'Python', 'OpenCV', 'TensorFlow', 'Arduino'].map(tech => (
               <span key={tech} className="font-mono text-xs px-3 py-1.5 border border-[#00f5ff]/15 text-[#e0f7ff]/40 glass">
                 {tech}
               </span>
