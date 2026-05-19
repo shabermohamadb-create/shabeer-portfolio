@@ -178,7 +178,7 @@ export default function Hero() {
         >
           Game Developer&nbsp;
           <span className="text-[#bf00ff]">|</span>&nbsp;
-          Unreal Engine Creator&nbsp;
+          Unity&nbsp;
           <span className="text-[#bf00ff]">|</span>&nbsp;
           Gameplay Programmer
         </motion.p>
