@@ -3,35 +3,35 @@ import { motion, useInView, AnimatePresence } from 'framer-motion'
 
 const testimonials = [
   {
-    name: 'Alex Chen',
+    name: 'Naveen M',
     role: 'Lead Developer @ Nexus Games',
     avatar: 'AC',
     color: '#00f5ff',
     text: 'Shaber delivered an outstanding AI enemy system for our FPS prototype. The behavior trees were incredibly well-structured and the difficulty scaling was exactly what we needed. Highly recommend.',
   },
   {
-    name: 'Priya Nair',
+    name: 'Siva Sankar',
     role: 'Project Manager @ TechVentures',
     avatar: 'PN',
     color: '#bf00ff',
     text: 'We hired Shaber for a game prototype and he went above and beyond. His Unreal Engine expertise is top-notch and he delivered a complete multiplayer demo in record time.',
   },
   {
-    name: 'Rahul Sharma',
+    name: 'Bose',
     role: 'Indie Game Developer',
     avatar: 'RS',
     color: '#00ff88',
     text: 'Collaborated with Shaber on a game jam and it was an incredible experience. His rapid prototyping skills and creative problem solving under pressure are unmatched.',
   },
   {
-    name: 'Dr. Meena Krishnan',
+    name: 'Rajesh',
     role: 'Professor, CS Dept.',
     avatar: 'MK',
     color: '#ff006e',
     text: 'Shaber is one of the most technically gifted students I have mentored. His AI emotion detection project was research-grade work. A true innovator in game technology.',
   },
   {
-    name: 'Jordan Kim',
+    name: 'Masav',
     role: 'Unity Developer',
     avatar: 'JK',
     color: '#00f5ff',
